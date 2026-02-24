@@ -1,2 +1,3 @@
 echo "*.log" >> .gitignore
-echo "node_modules/" >> .gitignore
+echo "node_modules/" >> .gitignore*.log
+node_modules/
