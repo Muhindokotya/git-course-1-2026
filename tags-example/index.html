@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tags example</title>
+  </head>
+  <body>
+    <h1>Tags Example</h1>
+<header>
+        <h1>Understanding Git Tags</h1>
+        <p>A simple explanation of tags in Git.</p>
+ </header>
+<section>
+            <h2>What is a Git Tag?</h2>
+            <p>
+                A Git tag is a reference that points to a specific commit.
+                Tags are commonly used to mark release versions such as v1.0.0.
+            </p>
+        </section>
+        <section>
+            <h2>Types of Git Tags</h2>
+
+            <h3>1. Lightweight Tag</h3>
+            <p>
+                A lightweight tag is just a pointer to a commit.
+                It does not store extra metadata.
+            </p>
+
+            <h3>2. Annotated Tag</h3>
+            <p>
+                An annotated tag stores additional information such as
+                the tagger name, email, date, and a message.
+            </p>
+        </section>
+        <section>
+            <h2>Basic Commands</h2>
+
+            <h3>Create a Lightweight Tag</h3>
+            <pre><code>git tag v1.0.0</code></pre>
+
+            <h3>Create an Annotated Tag</h3>
+            <pre><code>git tag -a v1.0.0 -m "First release"</code></pre>
+
+            <h3>List Tags</h3>
+            <pre><code>git tag</code></pre>
+
+            <h3>Push Tags to Remote</h3>
+            <pre><code>git push origin v1.0.0</code></pre>
+
+            <h3>Push All Tags</h3>
+            <pre><code>git push --tags</code></pre>
+        </section>
+        <footer>
+        <p>Created for learning Git basics.</p>
+    </footer>
+</body>
+</html>
